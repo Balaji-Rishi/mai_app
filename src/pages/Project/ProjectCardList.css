@@ -1,0 +1,360 @@
+.project-list-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-card-div {
+  display: flex;
+  width: 80%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid #B3B3B3;
+
+  position: relative;
+  /* Set parent to relative to use absolute positioning inside */
+}
+
+.interns-badge {
+  position: absolute;
+  right: 0px;
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  padding: 5px 12px;
+  font-size: 14px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.interns-badge-day {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  color: #000;
+  padding: 5px 12px;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.project-card-image {
+  width: 40%;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card-content {
+  width: 60%;
+  padding: 0 20px;
+  background-color: #F5F5F5;
+}
+
+.project-card-content h2 {
+  color: #3E3D3D;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.project-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.tagss {
+  background: #FFFFFF;
+  color: #8B8B8B;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #D9D9D9;
+}
+
+.project-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+}
+
+.project-description {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #444;
+  text-align: left;
+}
+
+.vertical-line {
+  border-left: 1px solid #ccc;
+  height: 50px;
+  margin: 5px 50px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.view-btn,
+.proposal-btn,
+.internship-btn {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+
+.view-btn {
+  background: #003F6B;
+}
+
+.proposal-btn {
+  background: #003F6B !important;
+}
+
+.internship-btn {
+  background: #003F6B !important;
+}
+
+.view-btn:hover {
+  background: #067bf1 !important;
+}
+
+.proposal-btn:hover {
+  background: #067bf1 !important;
+}
+
+.internship-btn:hover {
+  background: #067bf1 !important;
+}
+
+
+.project-details-container {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #333;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  text-align: left;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 15px 0;
+}
+
+.project-meta {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+}
+
+.description-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Large devices (desktops) */
+@media screen and (max-width: 992px) {
+  .project-card-div {
+    width: 85%;
+  }
+
+  .project-card-image {
+    width: 100%;
+  }
+
+  .project-card-content {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .project-card-content h2 {
+    font-size: 28px;
+  }
+
+  .button-group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .interns-badge {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .interns-badge-day {
+    top: 30px;
+    right: 10px;
+    font-size: 14px;
+  }
+
+  .project-details-container {
+    max-width: 80%;
+  }
+
+  .project-info {
+    font-size: 16px;
+  }
+}
+
+
+/* Medium devices (tablets) */
+@media screen and (max-width: 768px) {
+  .project-card-div {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .project-card-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .project-card-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .project-card-content h2 {
+    font-size: 24px;
+  }
+
+  .project-tags {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .button-group {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .interns-badge {
+    width: 90px;
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  .interns-badge-day {
+    top: 25px;
+    right: 8px;
+    font-size: 13px;
+  }
+
+  .project-details-container {
+    max-width: 90%;
+  }
+
+  .project-info {
+    font-size: 15px;
+  }
+
+
+}
+
+/* Small devices (phones) */
+@media screen and (max-width: 576px) {
+  .project-list-card {
+    gap: 15px;
+  }
+
+  .project-card-div {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .project-card-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .project-card-content {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .project-card-content h2 {
+    font-size: 22px;
+  }
+
+  .project-tags {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .button-group {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .interns-badge {
+    width: 80px;
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .interns-badge-day {
+    top: 20px;
+    right: 5px;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+
+  .project-details-container {
+    max-width: 100%;
+  }
+
+  .project-info {
+    font-size: 14px;
+  }
+
+
+
+  .vertical-line{
+    height: 70px;
+    margin: 5px 10px;
+  }
+
+  .project-meta{
+    font-size: 11px;
+  }
+}
+
+
+

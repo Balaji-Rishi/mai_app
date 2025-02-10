@@ -1,0 +1,94 @@
+.scroll-containers {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    white-space: nowrap;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    margin: 0 30px;
+    padding-top: 15px;
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .card-div {
+    flex: 0 0 auto;
+    width: 324px;
+    /* height: 340px; */
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    scroll-snap-align: start;
+  }
+  
+  .card-header-image {
+    background-color: #003f80;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    height: 100px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    /* border-radius: 50%; */
+    /* border: 4px solid white; */
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 100;
+  }
+  
+  .card-body1 {
+    padding: 50px 20px 10px;
+    font-size: 14px;
+  }
+  
+  
+
+  .card-footers {
+    background-color: #003f80; 
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .card-footers:hover {
+    background-color: #0074e4; /* Change background on hover */
+  }
+  
+  
+
+  .card_styles{
+    background-color: #ffffff;
+    border: 1px solid #D9D9D9;
+    padding-top: 100px;
+    width: 270px;
+    position: relative;
+    top: -50px;
+    margin: auto;
+    border-radius: 15px;
+  }
+
+  .text-name{
+    color: #003F6B;
+    font-size: 22px;
+    margin-bottom: 5px;
+    padding-left: 28px;
+    text-align: left;
+  }
+
+  .text-name span{
+    color: #003F6B;
+    padding-left: 28px;
+    text-align: left;
+  }

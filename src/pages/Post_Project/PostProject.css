@@ -1,0 +1,414 @@
+.post-project-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0 30px;
+}
+
+/* Left Side - Fixed Image */
+.image-section {
+    width: 40%;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+}
+
+.image-section img {
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/* Right Side - Scrollable Form */
+.form-section {
+    width: 60%;
+    margin-left: 50%;
+    margin-right: 5%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 20px;
+    background: #fff;
+    /* Hide scrollbar for Webkit browsers */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 11 */
+}
+
+.form-section::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Edge */
+}
+
+.form-section label {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+    /* Ensure labels are left-aligned */
+    display: block;
+}
+
+.form-section input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.note-box {
+    background: #DBE7F1;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+}
+
+.note-box h3 {
+    color: #003F6B;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.note-box ul li {
+    text-align: left;
+    color: #3E3D3D;
+}
+
+.select-p {
+    text-align: left;
+}
+
+.title-name {
+    text-align: center;
+    margin: 20px 0;
+    background: #DBE7F1;
+    padding: 15px;
+    font-weight: 800;
+    color: #003F6B;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eef4ff;
+}
+
+.browse {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.budget-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.budget-btn {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background: #004080;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.budget-btn:hover {
+    background: #56B8EE;
+}
+
+.postcode-box {
+    display: flex;
+    gap: 5px;
+}
+
+.postcode-box input {
+    width: 40px;
+    text-align: center;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.terms input {
+    margin-right: 5px;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.post-btn {
+    background: #00D279;
+    color: #003F6B;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background: #d9534f;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.col-red {
+    color: red;
+}
+
+
+.dat-btns {
+    display: flex;
+}
+
+
+.day-btn {
+    background: #E6E6E6;
+    color: #8B8B8B;
+    font-size: 16px;
+    width: 150px;
+    margin-left: 20px;
+    border: 1px solid #3E3D3D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.project-title-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #E6E6E6;
+    font-size: 16px;
+    color: #333;
+}
+
+.project-title-input::placeholder {
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-with-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-with-icon input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px; /* Space for icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #E6E6E6;
+    font-size: 16px;
+}
+
+.input-with-icon .icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #666;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* ------------------------ */
+/*      RESPONSIVE CSS      */
+/* ------------------------ */
+
+/* Tablets and Medium Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .post-project-container {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+
+    .image-section {
+        display: none;
+        /* width: 100%;
+        height: 300px;
+        position: relative;
+        background: #f4f4f4; */
+    }
+
+    /* .image-section img {
+        max-width: 80%;
+        height: auto;
+    } */
+
+    .form-section {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .post-btn,
+    .cancel-btn {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+   
+}
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .post-project-container {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+
+    .image-section {
+        display: none;
+        /* width: 100%;
+        height: 250px;
+        position: relative; */
+    }
+
+    /* .image-section img {
+        max-width: 70%;
+        height: auto;
+    } */
+
+    .form-section {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+        padding: 10px;
+        margin-top: 50px;
+
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .post-btn,
+    .cancel-btn {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .project-title-input {
+        font-size: 14px;
+    }
+
+    .budget-options {
+        flex-direction: column;
+    }
+
+    .note-box{
+        padding: 5px;
+    }
+}
+
+/* Small Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .image-section {
+        display: none;
+        /* height: 200px; */
+    }
+
+    /* .image-section img {
+        max-width: 60%;
+    } */
+
+    .form-section {
+        padding: 15px;
+        margin-top: 100px;
+    }
+
+    .post-btn,
+    .cancel-btn {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .budget-btn {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .day-btn {
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .note-box{
+        padding: 5px;
+    }
+}

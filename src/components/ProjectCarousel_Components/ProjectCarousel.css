@@ -1,0 +1,106 @@
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .scroll-wrapper {
+    display: flex;
+    /* overflow-x: auto; */
+    /* white-space: nowrap; */
+    /* scroll-behavior: smooth; */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  .scroll-wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome/Safari */
+  }
+  
+  /* .scroll-content {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: scrollAnimation 15s linear infinite;
+  }
+  
+  @keyframes scrollAnimation {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  } */
+  
+  .project-card2 {
+    flex: 0 0 auto;
+    width: 300px !important; 
+    margin-right: 10px;
+  }
+  
+  .custom-card {
+    border-radius: 15px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px !important;
+  }
+  
+  .card-image-carousel {
+    width: 300px !important; 
+    height: 300px; 
+    border-radius: 10px;
+    object-fit: cover; 
+    top: -80px;
+    position: relative;
+  }
+  
+
+  /* Location & Profile Image */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    z-index: 100;
+    border: none !important;
+}
+  
+ 
+  
+  .location i {
+    margin-right: 5px;
+  }
+  
+  .profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  
+  
+  .location {
+    font-size: 14px;
+    color: #003F6B;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    margin: 10px 0;
+    color: #003F6B !important;
+    text-align: end;
+  }
+  
+  .status {
+    color: #0D99FF;
+    text-align: end;
+    margin: 0;
+  }
+  
+
+  .card-bodys{
+    background: #F5F5F5 !important;
+    margin-top: -75px;
+  }

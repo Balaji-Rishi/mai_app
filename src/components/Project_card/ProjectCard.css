@@ -1,0 +1,106 @@
+.card-section {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .scroll-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #003366 #f0f0f0;
+  }
+  
+  /* Hide scrollbar in Chrome, Safari */
+  .scroll-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #003366;
+    border-radius: 5px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-track {
+    background: #f0f0f0;
+  }
+  
+  .project-card-list {
+    min-width: 342px !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #F5F5F5 !important;
+  }
+  
+  
+  .card-image-list {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+  }
+  
+  .card-title {
+    color: white !important;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .card-body {
+    background: #f8f9fa;
+    padding: 15px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .budget {
+    color: #003F6B;
+  }
+  
+  .view-btn-rs {
+    background-color: #003F6B !important;
+    padding:15px 40px !important;
+    color: white !important;
+    border-radius: 5px;
+    margin: 0 !important;
+  }
+  
+
+  .card-text {
+    white-space: normal;  /* Allow text to wrap */
+    overflow: hidden;     /* Prevent overflow */
+    text-overflow: ellipsis; /* Optional: Show "..." if text overflows */
+    display: -webkit-box;
+    -webkit-line-clamp: 5;  /* Limit to 3 lines (change as needed) */
+    -webkit-box-orient: vertical;
+    text-align: left;
+  }
+  
+
+
+  /* scroll hide */
+
+  .scroll-container {
+    overflow-x: auto;  /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of child elements */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, Edge */
+  }

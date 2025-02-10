@@ -1,0 +1,133 @@
+/* Container */
+.project-container-projectlist {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Horizontal Scrolling */
+  .project-list {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+  }
+  
+  /* Hide Scrollbar */
+  .project-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Card */
+  .project-cardss {
+    width: 324px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    flex-shrink: 0;
+  }
+
+  .p_margin0{
+    margin: 0;
+  }
+
+  .duration-div{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Header */
+  .card-header-divs {
+    background: white;
+    padding: 10px 10px 10px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  /* Image */
+  .card-images-project {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Card Body */
+  .card-body-project {
+    padding: 10px;
+    position: relative;
+    text-align: left;
+  }
+  
+  .sub-title {
+    display: inline-block;
+    margin: 0;
+    color: #434343;
+  }
+
+  .sub-title-div{
+    display: flex;
+  }
+  
+  .share-icon {
+    float: right;
+    cursor: pointer;
+    color: #434343;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  /* Team Members */
+  .team {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: -20px;
+    border: 2px solid white;
+  }
+
+  .team .team-image:nth-child(1) {
+    z-index: 100;
+  }
+  
+  .team .team-image:nth-child(2) {
+    z-index: 50;
+  }
+  
+ 
+  
+  
+  .team-count {
+    color: #434343;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 2px 6px;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  .card-footer-view {
+    background: #003F6B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  

@@ -1,0 +1,407 @@
+.search-sort-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: url('../../assects/images/bgimages.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15px;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  /* Dark transparent overlay */
+  padding: 18px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.hero-overlay p {
+  color: white;
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0;
+  max-width: 80%;
+}
+
+
+
+
+
+.row-div {
+  display: flex;
+  justify-content: center;
+  margin: 0 15px !important;
+}
+
+.col-md-5 label {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+  display: block;
+  font-size: 22px;
+
+}
+
+.sort-container {
+  display: flex;
+  padding: 10px;
+  justify-content: end;
+  margin-top: 35px;
+}
+
+.sort-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #D9D9D9;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: 900;
+}
+
+
+.subnew-vertical-2 {
+  border-left: 2px solid #003f6b;
+  height: 20px;
+  margin: 5px;
+}
+
+.filter-icon {
+  color: #1a4c9a;
+  font-size: 30px;
+  margin: 10px 25px;
+}
+
+.dropdown-icon {
+  color: #333;
+  font-size: 14px;
+  margin-left: auto;
+}
+
+
+
+/* card section styles */
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.project-image {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-details {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interns-count {
+  background: #FFD700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.tags {
+  margin: 10px 0;
+}
+
+.tag {
+  background: #E0E0E0;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.project-info p,
+.status-section p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #3E3D3D;
+}
+
+.description {
+  margin-top: 10px;
+  color: #555;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.view-btn,
+.proposal-btn,
+.internship-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.view-btn {
+  background: #003366;
+  color: white;
+}
+
+.proposal-btn {
+  background: #0055AA;
+  color: white;
+}
+
+.internship-btn {
+  background: #00A650;
+  color: white;
+}
+
+
+/* page number styles */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+
+/* Large devices (desktops) */
+@media screen and (max-width: 1024px) {
+  .image-section {
+    width: 50%;
+  }
+
+  .form-section {
+    width: 50%;
+    margin-left: 50%;
+  }
+
+  .hero-container {
+    height: 220px;
+  }
+
+  .hero-overlay p {
+    font-size: 30px;
+  }
+
+  .search-sort-container {
+    gap: 15px;
+  }
+
+  .project-card {
+    flex-direction: row;
+  }
+
+  .project-image {
+    width: 200px;
+    height: 150px;
+  }
+
+  .button-group {
+    flex-direction: row;
+  }
+
+  .budget-options {
+    flex-wrap: nowrap;
+  }
+
+  .day-btn {
+    width: 120px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media screen and (max-width: 768px) {
+  .post-project-container {
+    flex-direction: column;
+    height: auto;
+    margin: 0 20px;
+  }
+
+  .image-section {
+    width: 100%;
+    height: 250px;
+    position: relative;
+  }
+
+  .form-section {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero-container {
+    height: 200px;
+  }
+
+  .hero-overlay p {
+    font-size: 28px;
+  }
+
+  .search-sort-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sort-container {
+    justify-content: center;
+  }
+
+  .project-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .budget-options {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .day-btn {
+    width: auto;
+    margin-left: 10px;
+  }
+}
+
+/* Small devices (phones) */
+@media screen and (max-width: 480px) {
+  .post-project-container {
+    flex-direction: column;
+    margin: 0 10px;
+    height: auto;
+  }
+
+  .image-section {
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+
+  .form-section {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    padding: 15px;
+  }
+
+  .hero-container {
+    height: 500px;
+  }
+
+  .hero-overlay p {
+    font-size: 24px;
+    max-width: 90%;
+  }
+
+  .search-sort-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sort-container {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .budget-options {
+    flex-direction: column;
+  }
+
+  .day-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
