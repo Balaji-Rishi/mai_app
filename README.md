@@ -7,7 +7,7 @@ Visit the live app here 👉 [🌐 Live Demo](https://balaji-rishi.github.io/mai
 
 ## 📸 Screenshots
 
-![Uploading Screenshot 2025-03-24 221942.png…]()
+[![Uploading Screenshot 2025-03-24 221942.png…]()](https://github.com/Balaji-Rishi/mai_app/blob/main/MainPage.png?raw=true)
 
 ![Screenshot 2025-03-24 222509](https://github.com/user-attachments/assets/d7ab6334-0127-414b-b26b-c568b202c14c)
 
