@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/mai_app/static/css/main.d4525a01.css",
+    "main.js": "/mai_app/static/js/main.b4d185a9.js",
+    "static/js/488.8998b167.chunk.js": "/mai_app/static/js/488.8998b167.chunk.js",
+    "static/media/krithch.png": "/mai_app/static/media/krithch.7c8bab3c837f4db3ac58.png",
+    "static/media/bathroom.png": "/mai_app/static/media/bathroom.6458f6a4cf775bfb93d4.png",
+    "static/media/house2.png": "/mai_app/static/media/house2.a4bc1fc93c3d4ab3559a.png",
+    "static/media/constructionImage.png": "/mai_app/static/media/constructionImage.4493e4993bf5568a9019.png",
+    "static/media/bgimages.png": "/mai_app/static/media/bgimages.3c03fcab1d9d71a7021d.png",
+    "static/media/homebg.png": "/mai_app/static/media/homebg.a437d596bee5e7199838.png",
+    "static/media/happy.png": "/mai_app/static/media/happy.0994978c7e805b75e34c.png",
+    "static/media/kit.png": "/mai_app/static/media/kit.a219909111956158e60c.png",
+    "static/media/workers.png": "/mai_app/static/media/workers.68c3e27c0dda38b53574.png",
+    "static/media/img4.png": "/mai_app/static/media/img4.258b92d819b8cce8c551.png",
+    "static/media/img6.png": "/mai_app/static/media/img6.524142d30d300fb99999.png",
+    "static/media/img3.png": "/mai_app/static/media/img3.fdc96f123b9e036b5c43.png",
+    "static/media/img8.png": "/mai_app/static/media/img8.fd5a12022f8534116421.png",
+    "static/media/img1.png": "/mai_app/static/media/img1.6b0e1074c7216ca7b076.png",
+    "static/media/img2.png": "/mai_app/static/media/img2.6981aa8f3eb1296b5779.png",
+    "static/media/img7.png": "/mai_app/static/media/img7.756c4ac59639425ca76f.png",
+    "static/media/img5.png": "/mai_app/static/media/img5.207372cc46973c14fa8b.png",
+    "static/media/img9.png": "/mai_app/static/media/img9.27b6d28db5b06c5a5ed2.png",
+    "static/media/BedRoom.png": "/mai_app/static/media/BedRoom.b4fcac25a2db196a2081.png",
+    "static/media/living2.png": "/mai_app/static/media/living2.8c55897f8849ffe57702.png",
+    "static/media/living.png": "/mai_app/static/media/living.fe42460ce259a22359f1.png",
+    "static/media/homeex.png": "/mai_app/static/media/homeex.50f4eaaec2762000fa66.png",
+    "static/media/home.png": "/mai_app/static/media/home.bbf458a98d837a4e17b9.png",
+    "static/media/house.png": "/mai_app/static/media/house.3d493326e657aaf96703.png",
+    "static/media/pro2.png": "/mai_app/static/media/pro2.234371a41b6860c23baf.png",
+    "static/media/pro1.png": "/mai_app/static/media/pro1.105d7ffe2ff14baee748.png",
+    "static/media/pro4.png": "/mai_app/static/media/pro4.fa9ca678d4fb21d5cc3c.png",
+    "static/media/pro3.png": "/mai_app/static/media/pro3.4c70e71950c84629c6cb.png",
+    "index.html": "/mai_app/index.html",
+    "main.d4525a01.css.map": "/mai_app/static/css/main.d4525a01.css.map",
+    "main.b4d185a9.js.map": "/mai_app/static/js/main.b4d185a9.js.map",
+    "488.8998b167.chunk.js.map": "/mai_app/static/js/488.8998b167.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4525a01.css",
+    "static/js/main.b4d185a9.js"
+  ]
+}
